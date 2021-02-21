@@ -24,6 +24,6 @@ app.get('/c', (req, res) => {
 	else res.sendFile(__dirname + '/html/c/c.html');
 });
 
-server.listen(80,function(){
+server.listen(3000,function(){
 	console.log("Server is running");
 });
